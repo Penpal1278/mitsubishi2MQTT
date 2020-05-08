@@ -17,21 +17,21 @@
 const char html_init_setup[] PROGMEM = R"====(
 <div id='l1' name='l1'></div>
 <fieldset>
-    <legend><b>&nbsp; _TXT_INIT_TITLE &nbsp;</b></legend>
+    <legend><b>&nbsp; _TXT_INIT_TITLE_ &nbsp;</b></legend>
     <form method='post' action='save'>
-        <p><b>_TXT_WIFI_HOST</b>
+        <p><b>_TXT_INIT_HOST_</b>
             <br/>
             <input id='hn' name='hn' placeholder=' ' value='_UNIT_NAME_'>
         </p>
-        <p><b>_TXT_WIFI_SSID</b>
+        <p><b>_TXT_INIT_SSID_</b> ()
             <br/>
             <input id='ssid' name='ssid' placeholder=' '>
         </p>
-        <p><b>_TXT_WIFI_PSK</b>
+        <p><b>_TXT_INIT_PSK_</b> ()
             <br/>
             <input id='psk' name='psk' placeholder=' '>
         </p>
-        <p><b>_TXT_WIFI_OTA</b>
+        <p><b>_TXT_INIT_OTA_</b>
             <br/>
             <input id='otapwd' name='otapwd' placeholder=' '>
         </p>
